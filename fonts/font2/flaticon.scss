@@ -1,0 +1,81 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ac8355271b04d8247da27426ca0af6e1") format("truetype"),
+url("./flaticon.woff?ac8355271b04d8247da27426ca0af6e1") format("woff"),
+url("./flaticon.woff2?ac8355271b04d8247da27426ca0af6e1") format("woff2"),
+url("./flaticon.eot?ac8355271b04d8247da27426ca0af6e1#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ac8355271b04d8247da27426ca0af6e1#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "businessman": "\f101",
+    "handshake": "\f102",
+    "bar-chart": "\f103",
+    "exclamation": "\f104",
+    "hiking": "\f105",
+    "reading-book": "\f106",
+    "mountain": "\f107",
+    "camping-tent": "\f108",
+    "stopwatch": "\f109",
+    "day-and-night": "\f10a",
+    "public-transport": "\f10b",
+    "favorites": "\f10c",
+    "horse-with-raging-head-silhouette-variant": "\f10d",
+    "badge": "\f10e",
+);
+
+.flaticon-businessman:before {
+    content: map-get($flaticon-map, "businessman");
+}
+.flaticon-handshake:before {
+    content: map-get($flaticon-map, "handshake");
+}
+.flaticon-bar-chart:before {
+    content: map-get($flaticon-map, "bar-chart");
+}
+.flaticon-exclamation:before {
+    content: map-get($flaticon-map, "exclamation");
+}
+.flaticon-hiking:before {
+    content: map-get($flaticon-map, "hiking");
+}
+.flaticon-reading-book:before {
+    content: map-get($flaticon-map, "reading-book");
+}
+.flaticon-mountain:before {
+    content: map-get($flaticon-map, "mountain");
+}
+.flaticon-camping-tent:before {
+    content: map-get($flaticon-map, "camping-tent");
+}
+.flaticon-stopwatch:before {
+    content: map-get($flaticon-map, "stopwatch");
+}
+.flaticon-day-and-night:before {
+    content: map-get($flaticon-map, "day-and-night");
+}
+.flaticon-public-transport:before {
+    content: map-get($flaticon-map, "public-transport");
+}
+.flaticon-favorites:before {
+    content: map-get($flaticon-map, "favorites");
+}
+.flaticon-horse-with-raging-head-silhouette-variant:before {
+    content: map-get($flaticon-map, "horse-with-raging-head-silhouette-variant");
+}
+.flaticon-badge:before {
+    content: map-get($flaticon-map, "badge");
+}

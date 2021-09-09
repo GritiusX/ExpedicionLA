@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?ac8355271b04d8247da27426ca0af6e1") format("truetype"),
+url("./flaticon.woff?ac8355271b04d8247da27426ca0af6e1") format("woff"),
+url("./flaticon.woff2?ac8355271b04d8247da27426ca0af6e1") format("woff2"),
+url("./flaticon.eot?ac8355271b04d8247da27426ca0af6e1#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ac8355271b04d8247da27426ca0af6e1#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-businessman:before {
+    content: "\f101";
+}
+.flaticon-handshake:before {
+    content: "\f102";
+}
+.flaticon-bar-chart:before {
+    content: "\f103";
+}
+.flaticon-exclamation:before {
+    content: "\f104";
+}
+.flaticon-hiking:before {
+    content: "\f105";
+}
+.flaticon-reading-book:before {
+    content: "\f106";
+}
+.flaticon-mountain:before {
+    content: "\f107";
+}
+.flaticon-camping-tent:before {
+    content: "\f108";
+}
+.flaticon-stopwatch:before {
+    content: "\f109";
+}
+.flaticon-day-and-night:before {
+    content: "\f10a";
+}
+.flaticon-public-transport:before {
+    content: "\f10b";
+}
+.flaticon-favorites:before {
+    content: "\f10c";
+}
+.flaticon-horse-with-raging-head-silhouette-variant:before {
+    content: "\f10d";
+}
+.flaticon-badge:before {
+    content: "\f10e";
+}
