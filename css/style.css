@@ -10702,7 +10702,7 @@ h5,
   right: 0;
   bottom: 0;
   content: '';
-  opacity: .2;
+  opacity: .1;
   background: #000000;
 }
 
@@ -10879,7 +10879,7 @@ h5,
   left: 0;
   right: 0;
   background: #000000;
-  opacity: .2;
+  opacity: .1;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
