@@ -13117,3 +13117,11 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.text-blue {
+  color: #3B888D;
+}
+
+.text-blue:hover {
+  color: #2e676b;
+}
