@@ -6,7 +6,7 @@ $from_message = @trim(stripslashes($_POST['email']));
 $from = 'info@expedicionlosandes.com';
 $subject = @trim(stripslashes($_POST['asunto']));
 $message = @trim(stripslashes($_POST['mensaje']));
-$to = 'vascos-b90@hotmail.com'; //aca eventualmente va el mail de info@expedicionlosandes.com.
+$to = 'guidopawluk@hotmail.com'; //aca eventualmente va el mail de info@expedicionlosandes.com.
 
 require_once 'PHPMailer_5.2.4/class.phpmailer.php';
 
