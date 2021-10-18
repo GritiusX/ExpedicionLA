@@ -13070,6 +13070,10 @@ textarea.form-control {
   background-color: #F8F9FA;
 }
 
+.bg-ftco2 {
+  background-color: #70707038;
+}
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
