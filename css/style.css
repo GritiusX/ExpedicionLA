@@ -519,6 +519,11 @@ mark,
   height: auto;
 }
 
+.img-fluid2 {
+  max-width: 100%;
+  height: 300px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11285,6 +11290,10 @@ h5,
   color: rgb(173, 4, 4);
 }
 
+.info-color2 {
+  color: rgb(255, 0, 0);
+}
+
 .info-color:hover {
   color: rgb(255, 0, 0);
 }
@@ -12310,7 +12319,17 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 20rem;
+  height: 250px;
+  position: relative;
+  display: block;
+}
+
+.block-22 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;
   position: relative;
   display: block;
 }
@@ -13072,6 +13091,32 @@ textarea.form-control {
 
 .bg-ftco2 {
   background-color: #70707038;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+table.customTable {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #3B888D;
+  border-style: solid;
+  color: #000000;
+}
+
+table.customTable td,
+table.customTable th {
+  border-width: 2px;
+  border-color: #3B888D;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.customTable thead {
+  background-color: #3B888D;
 }
 
 @-webkit-keyframes loader-rotate {
